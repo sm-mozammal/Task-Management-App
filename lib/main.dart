@@ -1,20 +1,22 @@
 import 'package:flutter/material.dart';
 
+import '../screens/splash.dart';
+
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Taskmanagement App',
-      theme: ThemeData(
-        primarySwatch: Colors.green,
-      ),
+      navigatorKey: MyApp.navigatorKey,
+      home: SplashScreen(),
     );
   }
 }
