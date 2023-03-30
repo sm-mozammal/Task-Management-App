@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:task_management_app/screens/signup_screen.dart';
 
@@ -14,6 +13,11 @@ import '../widgets/reusable_Dan_account.dart';
 import '../widgets/reusable_elevated_btn.dart';
 import '../widgets/style.dart';
 import 'main_home.dart';
+
+//Main Branch
+//Main Branch
+//Main Branch
+//Main Branch
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
