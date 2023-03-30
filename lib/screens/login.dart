@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:task_management_app/screens/signup_screen.dart';
 
